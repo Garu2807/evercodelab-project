@@ -6,6 +6,4 @@ function logger() {
     console.log(`[${config.appName}] ${message}`);
   };
 }
-const log = logger()
-log("Приложение запущено")
 module.exports = logger;
